@@ -99,8 +99,23 @@ namespace MohawkGame2D
                 //ground
                 Draw.SetFillColor(34,139,34);
                 Draw.Rectangle(0,340,400,60);
+
+                //pumpkin body
+                Draw.SetFillColor(255, 165, 0);
+                Draw.Circle(300, 350, 30);
+                Draw.SetFillColor(0, 0, 0);
+
+                //eyes
+                Draw.Triangle(290, 340, 295, 350, 285, 350);
+                Draw.Triangle(310, 340, 305, 350, 315, 350);
+
+                //mouth
+                Draw.SetFillColor(0, 0, 0);
+                Draw.Rectangle(290, 360, 20, 5);
+
+
             }
-            
+
             //winter
             else if (season == 3)
             {
